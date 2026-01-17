@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Simple ATM Machine</title>
+    <link rel="stylesheet" href="ATM.css">
+</head>
+<body>
+<header>
+    <h1>Simple ATM Machine</h1>
+    <h3>Choose an operation and click Submit</h3>
+</header>
+
+<main>
+    <div class="atm-card">
+        <div class="options">
+            <label>
+                <input type="radio" id="check-balance" name="operation">
+                Check Balance
+            </label>
+
+            <label>
+                <input type="radio" id="deposite" name="operation">
+                Deposit Money
+            </label>
+
+            <label>
+                <input type="radio" id="withdraw" name="operation">
+                Withdraw Money
+            </label>
+
+            <label>
+                <input type="radio" id="offer" name="operation">
+                Generate Lucky Offer
+            </label>
+
+            <label>
+                <input type="radio" id="exit" name="operation">
+                Exit
+            </label>
+        </div>
+
+        <button type="button" id="submit">Submit</button>
+    </div>
+</main>
+
+<h3 id="result"></h3>
+
+<script src="ATM.js"></script>
+</body>
+</html>
